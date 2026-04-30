@@ -113,13 +113,13 @@ pocl()
     rm -rf pocl2 pocl2.tar.bz2
 }
 
-verilator()
-{
-    wget $REPOSITORY/verilator/$OSVERSION/verilator.tar.bz2
-    tar -xvf verilator.tar.bz2
-    mkdir -p $TOOLDIR && rm -rf $TOOLDIR/verilator && mv verilator $TOOLDIR
-    rm -rf verilator verilator.tar.bz2
-}
+#verilator()
+#{
+#    wget $REPOSITORY/verilator/ubuntu/verilator.tar.bz2
+#    tar -xvf verilator.tar.bz2
+#    mkdir -p $TOOLDIR && rm -rf $TOOLDIR/verilator && mv verilator $TOOLDIR
+#    rm -rf verilator verilator.tar.bz2
+#}
 
 sv2v()
 {
